@@ -1,0 +1,33 @@
+{
+  "name": "list-ottype",
+  "version": "0.0.1",
+  "description": "ottype for a list of values, supporting child ottypes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomsbg/list-ottype.git"
+  },
+  "keywords": [
+    "ottype",
+    "operational",
+    "transformation",
+    "list"
+  ],
+  "author": "Blake Thomson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomsbg/list-ottype/issues"
+  },
+  "homepage": "https://github.com/thomsbg/list-ottype",
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "lodash": "^3.5.0",
+    "ottypes": "^1.0.3"
+  }
+}
